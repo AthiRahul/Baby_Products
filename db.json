@@ -1,0 +1,282 @@
+{
+  "user": [
+    {
+      "id": "59c0",
+      "user": "Athira",
+      "email": "9895669277",
+      "password": "123",
+      "repassword": "123",
+      "cart": [
+        {
+          "id": "e8e6",
+          "image": "https://m.media-amazon.com/images/I/71wCU6wxggL._SL1500_.jpg",
+          "Name": "LuvLap 100% Cotton Muslin Baby Swaddle Set",
+          "price": "₹599/-",
+          "discriptn": "Ultra Soft Muslin Cotton MaterialMultipurpose usage- can be used as Baby Burp Cloth, Baby Blanket, Nursing cover during travel, Stroller Sun Cover, Changing Sheet during Diaper changeQuick Dry with High Absorbency rateAnti-Allergic No Toxic chemicals usedBreathable Material Safe on Sensitive SkinMimic the Natural Environment of the WombPerfect for New-born Swaddling",
+          "count": 1
+        },
+        {
+          "id": "d9f5",
+          "image": "https://m.media-amazon.com/images/I/71X04J9E6CL._SL1500_.jpg",
+          "Name": "DearJoy Big Fibre Filled Baby Pillow (60 cm, Pink)Polyester",
+          "price": "₹570/-",
+          "count": 1,
+          "discriptn": "Fun baby pillows for new born 0-12 months: DearJoy introduces this Elephant Pillow Soft toy For Babies to make playtimes & sleeping time of your toddler more fun, imaginative and exciting. Certified non-toxic and anti-allergic polyester fabric with conjugate fiber-filled stuffing used in this Baby ToyNO TENSION OF HAZARDS: This Elephant Plush Pillow for babies with it's special eyes have been Embroidered And stitched on sturdily, so you need not worry about them coming off or being a choking hazard. Perfect baby gifts for 0 - 1 year old boys and girls. 100% SAFETY FOR YOUR LITTLE ONE: Rest assured about the safetyTYPE: Elephant Pillow Soft Toy with comfort for Baby. MATERIAL: Certified Non Toxic Nylex soft fabric. Contents: Big Elephant Soft Toy Baby Pillow. WASHING: This Is Hand Washable. And Do Not Forget To Dry It Fully Under The Sun Frequently Which Helps Keep The Plush Toy Soft.We are giving you guarantee with this elephant stuffed toy pillow. Still if you don't like we will intiate your full amount within 7 Days. This elephant soft toys Perfect gift for a baby. Can be used as Baby Toys for new born, for 6 months+, Baby pillow for 3 year baby"
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": "c97a",
+      "user": "ajanya",
+      "email": "9744162390",
+      "password": "456",
+      "repassword": "456",
+      "cart": [],
+      "active": false
+    },
+    {
+      "id": "7fb9",
+      "user": "asdf",
+      "email": "123456789",
+      "password": "159",
+      "repassword": "159",
+      "cart": [],
+      "active": true
+    },
+    {
+      "id": "9f0f",
+      "user": "Radhakrishna Varma",
+      "email": "9605688362",
+      "password": "123",
+      "repassword": "123",
+      "cart": [
+        {
+          "id": "d9f5",
+          "image": "https://m.media-amazon.com/images/I/71X04J9E6CL._SL1500_.jpg",
+          "Name": "DearJoy Big Fibre Filled Baby Pillow (60 cm, Pink)Polyester",
+          "price": "₹570/-",
+          "discriptn": "Fun baby pillows for new born 0-12 months: DearJoy introduces this Elephant Pillow Soft toy For Babies to make playtimes & sleeping time of your toddler more fun, imaginative and exciting. Certified non-toxic and anti-allergic polyester fabric with conjugate fiber-filled stuffing used in this Baby ToyNO TENSION OF HAZARDS: This Elephant Plush Pillow for babies with it's special eyes have been Embroidered And stitched on sturdily, so you need not worry about them coming off or being a choking hazard. Perfect baby gifts for 0 - 1 year old boys and girls. 100% SAFETY FOR YOUR LITTLE ONE: Rest assured about the safetyTYPE: Elephant Pillow Soft Toy with comfort for Baby. MATERIAL: Certified Non Toxic Nylex soft fabric. Contents: Big Elephant Soft Toy Baby Pillow. WASHING: This Is Hand Washable. And Do Not Forget To Dry It Fully Under The Sun Frequently Which Helps Keep The Plush Toy Soft.We are giving you guarantee with this elephant stuffed toy pillow. Still if you don't like we will intiate your full amount within 7 Days. This elephant soft toys Perfect gift for a baby. Can be used as Baby Toys for new born, for 6 months+, Baby pillow for 3 year baby"
+        },
+        {
+          "id": "e077",
+          "image": "https://m.media-amazon.com/images/I/41Z3cYvR-jL._SX300_SY300_QL70_FMwebp_.jpg",
+          "Name": "LuvLap 3 in 1 Baby Bed,",
+          "price": "₹559/-",
+          "discriptn": "Most comfortable for your baby: This baby sleeping bag ensures a hug of comfort to your baby so that the baby is reassured & keeps them in tight fit and thus they can be tucked into the bed or in your car seat easilyPortable & multi functional baby sleeping bed: Its light-weight and compact design makes it very easy to convert this into a travel companionMade of hypoallergenic cotton fibre this bed is perfect for the baby skin & turns to be the preferred lounger for the babyGrows with your baby with the help of the zipper. In winter and AC environment the zipper can be closed and the bedding acts as a hooded quilt, whereas in case of warm weather it can be used as a mattressThis baby bedding set lets you co-sleep with your baby, it creates a barrier between baby and parents giving the baby their own cozy space"
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": "9858",
+      "user": "Murshid",
+      "email": "9995789485",
+      "password": "5789",
+      "repassword": "5789",
+      "active": true
+    },
+    {
+      "id": "4b3c",
+      "user": "vishnu",
+      "email": "8086774536",
+      "password": "8086",
+      "repassword": "8086",
+      "active": true
+    },
+    {
+      "id": "f874",
+      "user": "vishnu",
+      "email": "8086774536",
+      "password": "8086",
+      "repassword": "8086",
+      "active": true
+    },
+    {
+      "id": "ee5b",
+      "user": "vishnu",
+      "email": "8086774536",
+      "password": "8086",
+      "repassword": "8086",
+      "active": true
+    },
+    {
+      "id": "c736",
+      "user": "athira",
+      "email": "9895669277",
+      "password": "123",
+      "repassword": "123",
+      "active": true
+    },
+    {
+      "id": "7c18",
+      "user": "athira",
+      "email": "9895669277",
+      "password": "123",
+      "repassword": "123",
+      "active": true
+    },
+    {
+      "id": "67a4",
+      "user": "raju",
+      "email": "7894561230",
+      "password": "1230",
+      "repassword": "1230",
+      "cart": [],
+      "active": true
+    },
+    {
+      "id": "c0b2",
+      "user": "rama",
+      "email": "7894561230",
+      "password": "1230",
+      "repassword": "1230",
+      "cart": [],
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "e8e6",
+      "image": "https://m.media-amazon.com/images/I/71wCU6wxggL._SL1500_.jpg",
+      "Name": "LuvLap 100% Cotton Muslin Baaddle Set",
+      "price": "₹600/-",
+      "discriptn": "Ultra Soft Muslin Cotton MaterialMultipurpose usage- can be used as Baby Burp Cloth, Baby Blanket, Nursing cover during travel, Stroller Sun Cover, Changing Sheet during Diaper changeQuick Dry with High Absorbency rateAnti-Allergic No Toxic chemicals usedBreathable Material Safe on Sensitive SkinMimic the Natural Environment of the WombPerfect for New-born Swaddling",
+      "Qty": "5",
+      "Category": "bathing"
+    },
+    {
+      "id": "d9f5",
+      "image": "https://m.media-amazon.com/images/I/71X04J9E6CL._SL1500_.jpg",
+      "Name": "DearJoy Big Fibre Filled Baby Pillow (60 cm, Pink)Polyester",
+      "price": "₹570/-",
+      "count": "1",
+      "discriptn": "Fun baby pillows for new born 0-12 months: DearJoy introduces this Elephant Pillow Soft toy For Babies to make playtimes & sleeping time of your toddler more fun, imaginative and exciting. Certified non-toxic and anti-allergic polyester fabric with conjugate fiber-filled stuffing used in this Baby ToyNO TENSION OF HAZARDS: This Elephant Plush Pillow for babies with it's special eyes have been Embroidered And stitched on sturdily, so you need not worry about them coming off or being a choking hazard. Perfect baby gifts for 0 - 1 year old boys and girls. 100% SAFETY FOR YOUR LITTLE ONE: Rest assured about the safetyTYPE: Elephant Pillow Soft Toy with comfort for Baby. MATERIAL: Certified Non Toxic Nylex soft fabric. Contents: Big Elephant Soft Toy Baby Pillow. WASHING: This Is Hand Washable. And Do Not Forget To Dry It Fully Under The Sun Frequently Which Helps Keep The Plush Toy Soft.We are giving you guarantee with this elephant stuffed toy pillow. Still if you don't like we will intiate your full amount within 7 Days. This elephant soft toys Perfect gift for a baby. Can be used as Baby Toys for new born, for 6 months+, Baby pillow for 3 year baby"
+    },
+    {
+      "id": "0084",
+      "image": "https://m.media-amazon.com/images/I/31rvuwEUOrL._SX300_SY300_QL70_FMwebp_.jpg",
+      "Name": "LifeKrafts Foldable Baby Mosquito Net",
+      "price": "₹879/-",
+      "count": "1",
+      "discriptn": "Highly durable see through mesh fabric used in the net ensures breath-ability and provides protection from mosquitoes and other insectsDesigned it to maximum space, creating a snug perimeter around the inside of the crib and making a safe little home for your babyMicro Hole: 100% fine premium honeycomb patterned mosquito mesh blocks even the tiny mosquitoesDeepen Lace: Widen breathable fabric cloth to cover wounds to prevent mosquitoes and bugsSecure Base Support: Secure base support steel wire. Anti-oxidation and abrasion resistance. Safe, Fast & Easy set-up without any tools, convenient to use"
+    },
+    {
+      "id": "e077",
+      "image": "https://m.media-amazon.com/images/I/41Z3cYvR-jL._SX300_SY300_QL70_FMwebp_.jpg",
+      "Name": "LuvLap 3 in 1 Baby Bed,",
+      "price": "₹559/-",
+      "count": "1",
+      "discriptn": "Most comfortable for your baby: This baby sleeping bag ensures a hug of comfort to your baby so that the baby is reassured & keeps them in tight fit and thus they can be tucked into the bed or in your car seat easilyPortable & multi functional baby sleeping bed: Its light-weight and compact design makes it very easy to convert this into a travel companionMade of hypoallergenic cotton fibre this bed is perfect for the baby skin & turns to be the preferred lounger for the babyGrows with your baby with the help of the zipper. In winter and AC environment the zipper can be closed and the bedding acts as a hooded quilt, whereas in case of warm weather it can be used as a mattressThis baby bedding set lets you co-sleep with your baby, it creates a barrier between baby and parents giving the baby their own cozy space"
+    },
+    {
+      "id": "e17c",
+      "image": "https://m.media-amazon.com/images/I/51VMnHhWmTL._SX300_SY300_QL70_FMwebp_.jpg",
+      "Name": "BeyBee Instadry Anti-Piling Fleece Extra Absorbent Quick Dry Sheet ",
+      "price": "₹227/-",
+      "count": "1",
+      "discriptn": "Water proof Bed Protector: BeyBee waterproof BABY Dry sheet allows no stagnation of body liquid and also prevents any excess dampness from getting in.Best for New parents: Parents need a fabric that can tolerate the fluids in urgent situations without causing any toxic effect. This is best for new and would be parent for sound sleep without getting wetPremium quality: BeyBee waterproof bed protector absorbs and holds 8 times its weight of water to comfort your baby on his day's nap, night's sleep, dressing up or playing time. This lightweight baby urine sheet waterproof, crafted with the premium quality fabric, our baby bed protector offers soft feel to touch even on a rough bed surface]Protect from major problem: This BeyBee dry sheet is helps in protect your baby from 6 major problems caused by the usage of diapers on your child's skin, (gives ultimate protection against damaged immunity, urinary infections, skin irritations, redness and rashes).Economical and light weight: BeyBee dry sheet is hypoallergenic, economical and light weight can be sterilized upto 90-degree C. These sheets are known as like (baby mat waterproof, mattress protection, urine sheet with waterproof, baby cot sheet, quickly dry sheet for baby)"
+    },
+    {
+      "id": "3e62",
+      "image": "https://m.media-amazon.com/images/I/61ahbXstePL._SY879_.jpg",
+      "Name": "Himalaya Gentle Baby Wash (400ml)",
+      "price": "₹227/-",
+      "count": "1",
+      "discriptn": "Best & ideal for newborns and infants up to 6 months; a complete head-to-toe body washSoap-free and pH-balanced formula with the power of 3 herbs. Organic Type : OrganicChickpea: Cleanses and soothes skin, Suitable For: All Skin Types, Pour Gentle Baby Wash onto a wet sponge or hands and apply to baby's skin. Lather, rinse and repeat, if necessary.Fenugreek & Green Gram: Moisturize baby’s delicate skin; make skin soft and suppleFree from Parabens, SLS/SLES & Synthetic Colors; mild on your baby’s skin and scalpGentle no-tears formula does not cause irritation to baby’s eyes; your little one will enjoy the bubble bath, thus bath time will be fun time for babyPACKER: The Himalaya Drug Company,Tumkur Road, Makali, Bangalore - 562162; IMPORTER: The Himalaya Drug Company,Tumkur Road, Makali, Bangalore - 562162"
+    },
+    {
+      "id": "a868",
+      "image": "https://m.media-amazon.com/images/I/418+KM4hG3L._SY300_SX300_.jpg",
+      "Name": "Tedibar Moisturising Baby Bathing Bar 75gx2(Pack of 1)",
+      "price": "₹369/-",
+      "count": "1",
+      "discriptn": "Bathing buddy bar that is scientifically crafted to protect your baby’s soft & sensitive skinIt is highly recommended by paediatricians & trusted by parents for over 15 yearsTedibar cleanses the baby’s sensitive skin without altering the pH level, ensuring naturally healthy skin for your baby"
+    },
+    {
+      "id": "9a48",
+      "image": "https://m.media-amazon.com/images/I/71+xZeu8VVL._SX679_PIbundle-2,TopRight,0,0_AA679SH20_.jpg",
+      "Name": "Mamaearth Moisturizing Baby Bathing Soap Bar pH 5.5 with Goat Milk and Oatmeal, 75g (Pack of 2)",
+      "price": "₹212/-",
+      "count": "1",
+      "discriptn": "SOAP FREE WITH BALANCED 5.5 pH Most soaps are harsh and wash off the natural oils from baby's skin. This bar is soap free, made from natural ingredients such as coconut based cleansers and thus maintain 5.5 pH which is ideal for gentle and delicate skin of babies.TEAR FREE FORMULA For stress-free bath time, our carefully formulated bathing bar is tear free. It does not irritate those pretty eyes or sensitive skin of the baby. FOR YOUR NEWBORN'S DELICATE SKIN The natural nutrients present in goat milk gets easily absorbed in the delicate skin of your baby and keeps it moisturized for long time. Goat milk also helps in soothing dry & itchy skin of babies.SUITS DRY, ITCHY, ECZEMA PRONE SKIN One of the best known ingredient to soothe dry, itchy and irritated skin - unflavored oats. It is also a great cleansing agent for eczema prone skin.; Dermatologically Tested pH Balanced Certified Toxin Free Hypoallergenic"
+    },
+    {
+      "id": "5d4b",
+      "image": "https://m.media-amazon.com/images/I/41m332D5LnL._SX569_.jpg",
+      "Name": "Baby Dove Rich Moisture Body Wash 400ml ",
+      "price": "₹320/-",
+      "count": "1",
+      "discriptn": "GENTLE PH NEUTRAL FORMULA: Baby Dove Body Wash is formulated to be gentle on your baby's delicate skin. Dove body wash mild, pH-neutral formula is perfect for daily use, leaving your baby's skin soft and supple.NOURISHING AND MOISTURIZING: Dove Body wash is enriched with 100% skin natural ingredients, this bodywash helps keep your baby's skin hydrated and nourished, protecting it from dryness and irritation.HYPOALLERGENIC AND TEAR FREE: The Baby Dove Bodywash is hypoallergenic and free from harmful chemicals, ensuring that it is safe for your baby's skin. The tear-free shower gel formula is gentle on the eyes, so you don't have to worry about any stinging or irritation.SUITABLE FOR ALL SKIN TYPES: This body wash for dry skin is suitable for all skin types, including sensitive skin. It is dermatologist and pediatrician tested, making it a trusted choice for your baby's skin care needs.CONVENIENT AND EASY TO USE: The Dove shower gel 400ml bottle comes with a convenient pump dispenser, making it easy to use and preventing any wastage. Dove Moisturising body wash bottle is also travel-friendly, so you can take it with you on-the-go."
+    },
+    {
+      "id": "156b",
+      "image": "https://m.media-amazon.com/images/I/51OoRRRvUvL._SX679_.jpg",
+      "Name": "Hopscotch Boys Cotton Bow Embellished Romper in White Color",
+      "price": "₹769/-",
+      "count": "1",
+      "discriptn": "We're Hopscotch, India's largest kids’ fashion brand. From playtime to bedtime. From infancy to childhood. And everything in between. We curate the most fashionable and on-trend head-to-toe looks for every kid, every occasion, and every moment of childhood.We bring you what your kids will love and yet be comfortable in by scouring the world and hand-picking aww-some new styles every single day."
+    },
+    {
+      "id": "5d0e",
+      "image": "https://m.media-amazon.com/images/I/512Fau61yGL._SX679_.jpg",
+      "Name": "Bold N Elegant - Cotton T-Shirt And Shorts Clothing Set",
+      "price": "₹549/-",
+      "count": "1",
+      "discriptn": "Dress up your young kiddo in this cool cartoon printed, SUMMER Clothing Set by Bold N Elegant. A soft cotton make, this set features a top and bottom that ensure ease of movement and comfort.Little dude on the move will attract every wandering eye in this pack of t-shirt and bottom, a short length set from Bold N Elegant. Designed using cotton, this set will ensure complete comfort to the little one as he wiggles and wriggles in a cute motion.With a luxuriously soft cotton use, this super-comfy clothing set will be perfect for a SUMMER adventure.Great for casual, Daily, party or photo-shoot, playdates etc. Suitable for baby to wear in spring and summer. Made of high quality materials, Soft and comfy, Special cute design will make your baby look even more adorable and charming.Our sizes are bigger similar to US sizes, hence we recommend you to go for down size if baby is not very chubby"
+    },
+    {
+      "id": "1d1d",
+      "image": "https://m.media-amazon.com/images/I/51ZQzVWvFyL._SX679_.jpg",
+      "Name": "Bon Organik Unisex My First Holi Bodysuit Baby",
+      "price": " ₹269/-",
+      "count": "1",
+      "discriptn": "Bon Organik Fabric : 100% CottonPackage Contains: 1 Qty of pullover BodysuitHomegrown Indian Brand; Fit Type: Regular Fit, Comfortable to wear"
+    },
+    {
+      "id": "e109",
+      "image": "https://m.media-amazon.com/images/I/41Lo8REFWUL._SX679_.jpg",
+      "Name": "Hopscotch Girls Maroon Cotton Solid Romper With Headband",
+      "price": "₹586/-",
+      "count": "1",
+      "discriptn": "Material: 100% CottonPackage Includes: 1 Rompers 1HeadbandThe actual product may differ slightly in color from the one illustrated in the images.Care Instruction: Gentle WashAll Dimensions are in cms :- Rompers: Length: 46 cm , Chest: 50.0 cm , Waist: 50 cm"
+    },
+    {
+      "id": "5e32",
+      "image": "https://m.media-amazon.com/images/I/61OjKpq6pzL._SL1500_.jpg",
+      "Name": "Parachute Advansed Baby Soap",
+      "price": "157",
+      "count": "20",
+      "Category": "Bathing",
+      "discriptn": " Enriched with Virgin Coconut Oil & Coconut Milk- The nourishing baby soap is enriched with virgin coconut oil and has the nourishing goodness of coconut milk keeping your baby’s skin supple Bouncy, Soft, & Moisturized Skin- The gentle formula ensures all-day hydration, leaving your baby’s skin happy, healthy, and free-from dryness Doctor-certified Newborn Safe- Parachute Advansed Baby Nourishing Soap is thoughtfully designed and clinically tested to be newborn safe, offering a gentle touch to your baby’s sensitive skin Hypoallergenic- With a hypoallergenic formula, the soap for baby is crafted to minimize the risk of allergies and skin irritations, making it suitable for even the most sensitive skin "
+    },
+    {
+      "id": "1aef",
+      "image": "https://m.media-amazon.com/images/I/51G+dU5mx-L._SL1500_.jpg",
+      "Name": "Parachute Advansed Baby Gentle Wash",
+      "price": "297",
+      "Qty": "10",
+      "Category": "Bathing",
+      "discriptn": " Gentle cleanses even in Hard Water- The baby wash cleanses your baby’s skin gently even in hard water. Each wash is a gentle embrace, ensuring your little one’s skin stays supple no matter the water type. Soft, radiant, and refreshed skin- The baby body wash envelopes your baby’s skin in a delicate touch, leaving it soft and refreshed, and exuding a gentle, natural glow that speaks of care and well-being. Balanced Protection- The baby wash provides optimal care with a pH level of 5.5, mirroring your baby’s delicate skin balance. Coupled with its hypoallergenic nature, this baby bath ensures a protective and soothing bathing experience, tailored for your little one’s utmost comfort. Additionally, this baby wash is free from parabens, sulphates, silicones, dyes and other harmful chemicals. Tender care- The baby body wash is formulated to be tear-free, ensuring a gentle cleanse without causing any discomfort to your baby’s eyes. It is also soap-free, which means it cleanses without stripping away essential moisture, leaving your baby’s skin soft, without any chance of drying. "
+    },
+    {
+      "id": "ab8e",
+      "image": "https://m.media-amazon.com/images/I/81e2eg42I7L._SL1500_.jpg",
+      "Name": "LuvLap Hosiery Cotton Cloth Premium Baby Washcloth",
+      "price": "₹215/-",
+      "Qty": "6",
+      "Category": "Bathing",
+      "discriptn": "     Baby Cotton Washcloths     Soft & gentle on baby's delicate skin     Made of 100% Stretchable Cotton Fabric     Machine washable     Mixed colour suits both girls & boys"
+    },
+    {
+      "id": "d138",
+      "image": "https://m.media-amazon.com/images/I/71DHwkZaYzL._SL1500_.jpg",
+      "Name": "Mee Mee Newborn Baby Bather ",
+      "price": " ₹901/-",
+      "Qty": "10",
+      "Category": "Bathing",
+      "discriptn": "     Made of durable, international, premium quality materials for zero toxicity     Frame is made of sturdy and durable metal for strong support and seat base is of thick plastic and soft mesh     Cushioned edges of the seat ensure your baby is seated comfortably     Strong anti-skid base at the base ensures bather is stable at all times during the child's bath     Pillow for head support gives he right support and cushioning during bath time, compact design that is easy to fold, store, clean and carry"
+    }
+  ],
+  "Admin": []
+}
