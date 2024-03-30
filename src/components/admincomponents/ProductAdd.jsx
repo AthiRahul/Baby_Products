@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
@@ -26,7 +26,11 @@ function ProductAdd() {
 
         }
         axios.post('http://localhost:3000/products',(userInputData))
-    .then(res=>alert('Added successfully'))
+        .then(res=>(alert('Added successfully'),window.location = "AdminHome/*"))
+        
+
+
+   
     }
     return (
         <div>

@@ -3,15 +3,16 @@ import Header from '../components/Header'
 import Banners from '../components/Banners'
 import Shop from '../components/Shop'
 
+
 function Home() {
   
   return (
 
-    <div>
+    <div >
        <Header/>
        <Banners/>
-       
-   
+        <Shop/>
+         
     </div>
   )
 }

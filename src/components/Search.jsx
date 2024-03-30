@@ -1,13 +1,14 @@
 import React, { useContext } from 'react'
 import { myContext } from '../Context/Context'
+import Header from './Header'
 
 function Search() {
   const{isSearch}=useContext(myContext)
   return (
     
        <div className="">
-            
-            <div className=' max-h-96 mx-auto grid grid-cols-4 gap-3'>
+            <Header/>
+            <div className=' max-h-96 mx-auto grid grid-cols-4 gap-3 pt-20'>
             {isSearch && isSearch.map((value) => {
                 return (
                     <div className="card card-normal  bg-base-100 shadow-xl ">

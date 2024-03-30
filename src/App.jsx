@@ -17,14 +17,16 @@ import Search from "./components/Search"
 import Category from "./components/Category"
 
 import AdminHome from "./Pages/AdminHome"
+import './App.css'
 
 
 export default function App() {
   const [isSearch,setIsSearch]=useState([])
+  const[category,setCategory]=useState([])
    
   return (
   <> 
-  <myContext.Provider value={{isSearch,setIsSearch}}>
+  <myContext.Provider value={{isSearch,setIsSearch,category,setCategory}}>
 
   
   <Routes>

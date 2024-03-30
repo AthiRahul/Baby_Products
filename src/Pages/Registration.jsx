@@ -22,7 +22,7 @@ function Registration() {
       password: passwordRef.current.value,
       repassword: repasswordRef.current.value,
       cart:[],
-      active:True
+      active:true
     }
     
     axios.post('http://localhost:3000/user',(userInputData))
@@ -38,7 +38,7 @@ function Registration() {
 
     
     return (
-      <div className=' flex flex-col items-center' >
+      <div className=' flex flex-col items-center bg-pink-100 pt-16 h-screen' >
         <img className=" w-24 rounded-md" src='https://kotametro.waroengkiranatoysrent.com/pemanis_tampilan/img/2f3a974d7e8806f16829ff78663f8948.jpg' alt='logo' /><br></br>
         <div className='border p-4 flex flex-col items-center'>
           <h1 >Create Acount</h1>

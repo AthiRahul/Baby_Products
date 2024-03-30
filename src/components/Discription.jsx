@@ -72,13 +72,13 @@ function Discription() {
       <Header /><br></br>
       <div className='md:flex gap-4'>
 
-        <div className="card card-compact w-32 bg-base-100 shadow-xl flex-auto ">
-          <figure><img src={data.image} alt="product" /></figure>
+        <div className="card card-compact w-32  bg-base-100 shadow-xl flex-auto ">
+          <figure><img  className="w-64 h-auto pt-20" src={data.image} alt="product" /></figure>
           <div className="card-body">
             <p className="card-title">{data.Name}</p>
             <p>MRP{data.price}</p>
             <label>Qty:</label> 
-                    <select  id='Qty' onChange={HandleQuantity} value={count}>
+                    <select className='w-12'  id='Qty' onChange={HandleQuantity} value={count}>
                       <option>1</option>
                       <option>2</option>
                       <option>3</option>

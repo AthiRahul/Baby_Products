@@ -1,12 +1,10 @@
 import axios from 'axios'
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-
-import Card from './Card'
 import { myContext } from '../Context/Context'
-
 function Header() {
   const { setIsSearch } = useContext(myContext)
+  const { setCategory } = useContext(myContext)
   const [data, setData] = useState()
   const [cartlenth, setCartlenth] = useState([])
   const [userdata, setUserdata] = useState({})
@@ -16,9 +14,11 @@ function Header() {
     axios.get(`http://localhost:3000/user/${localStorage.getItem("user.id")}`)
       .then((res) => {
         setUserdata(res.data)
-        setCartlenth(res.data.cart) 
-      }) 
+        setCartlenth(res.data.cart)
+      })
   }, [])
+  
+  console.log(cartlenth);
   console.log(userdata);
 
   const HandleLogout = () => {
@@ -38,19 +38,14 @@ function Header() {
     data && data.map(item => {
       if ((item.Name.toLowerCase()).includes(searchData.toLowerCase())) {
         searcharray.push(item)
-
       }
-
     })
     setIsSearch(searcharray)
     navigate('/Search')
   }
-
   return (
-
     <div>
-
-      <div className="navbar bg-pink-100 fixed top-0 z-10">
+      <div className="navbar bg-pink-300 fixed top-0 z-10">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -62,19 +57,14 @@ function Header() {
               <li>
                 <a>Category</a>
                 <ul className="p-2">
-                  <li><Link to={'/Category'}>Daiapering</Link></li>
-                  <li><Link to={'/Category'}>Clothing</Link></li>
-                  <li><Link to={'/Category'}>Beddig</Link></li>
-                  <li><Link to={'/Category'}>Bathing</Link></li>
+                  <li onClick={() => setCategory("Daiapering")}><Link to={'/Category'}>Daiapering</Link></li>
+                  <li onClick={() => setCategory("Clothing")}><Link to={'/Category'}>Clothing</Link></li>
+                  <li onClick={() => setCategory("Beddig")}><Link to={'/Category'}>Beddig</Link></li>
+                  <li onClick={() => setCategory("Bathing")}><Link to={'/Category'}>Bathing</Link></li>
                 </ul>
               </li>
-              <li>
-                <Link to={'/AboutAs'}>AboutUs</Link>
-                <ul className="p-2">
-                  <li><Link to={'/AboutUs'}>AboutBabyBliss</Link></li>
-                  <li><Link to={'/contactUs'}>ContactUs</Link></li>
-                </ul>
-              </li>
+              <li><Link to={'/AboutAs'}>AboutUs</Link></li>
+              <li><Link to={'/ContactUs'}>ContactUs</Link></li>
               <li><Link to={'/Testinomial'}>testinomial</Link></li>
             </ul>
           </div>
@@ -88,14 +78,14 @@ function Header() {
               <details>
                 <summary>Category</summary>
                 <ul className="p-2">
-                  <li><Link to={'/Category'}>Daiapering</Link></li>
-                  <li><Link to={'/Category'}>Clothing</Link></li>
-                  <li><Link to={'/Category'}>Beddig</Link></li>
-                  <li><Link to={'/Category'}>Bathing</Link></li>
+                  <li ><Link to={'/Category'} onClick={() => setCategory("Daiapering")}>Daiapering</Link></li>
+                  <li onClick={() => setCategory("Clothing")}><Link to={'/Category'}>Clothing</Link></li>
+                  <li onClick={() => setCategory("Beddig")}><Link to={'/Category'}>Beddig</Link></li>
+                  <li onClick={() => setCategory("Bathing")}><Link to={'/Category'}>Bathing</Link></li>
                 </ul>
               </details>
             </li>
-            <li><Link to={'AboutAs'}>AboutUs</Link></li>
+            <li><Link to={'/AboutAs'}>AboutUs</Link></li>
             <li><Link to={'/ContactUs'}>ContactUs</Link></li>
             <li><Link to={'/Testinomial'}>Testinomial</Link></li>
           </ul>
@@ -143,9 +133,6 @@ function Header() {
                     <button onClick={() => navigate('/login')}>Login</button>
                   }
                 </li>
-
-
-
               </ul>
             </div>
           </div>

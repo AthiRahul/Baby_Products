@@ -37,7 +37,7 @@ function Login() {
 
   }
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center bg-pink-100 h-screen pt-20'>
       <h1>Sign in</h1>
       <div className='border p-4 flex flex-col items-center'>
         <form className="form-control w-full max-w-xs" onSubmit={(e) => e.preventDefault()}>

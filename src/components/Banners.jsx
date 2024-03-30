@@ -3,7 +3,7 @@ import React from 'react'
 function Banners() {
   return (
     <div>
-      <div className="carousel w-full h-screen">
+      <div className="carousel w-full h-screen pt-16">
         <div id="slide1" className="carousel-item relative w-full ">
             <img src="https://popees.com/pub/media/slideshow/cache/2000x500/AW___Web_Banner___womens_Day-01.jpg" className="w-full" />
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

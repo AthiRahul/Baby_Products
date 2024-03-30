@@ -37,12 +37,12 @@ let count = userdata && userdata.reduce((a,e) =>{ return (e.count)*1+ a},0)
     <div >
       <Header /><br></br>
       <div>
-      <div  className='max-h-96 mx-auto grid grid-cols-2 gap-3'>
+      <div  className='pt-16 mx-auto grid grid-cols-2 gap-3'>
         {userdata && userdata.map((value) => {
           return (
             
-            <div className="card card-compact w-96 bg-base-100 shadow-xl ">
-              <figure><img src={value.image} alt="product" /></figure>
+            <div className=" pt-16 card card-compact w-96 bg-base-100 shadow-xl ">
+              <figure><img className='h-64' src={value.image} alt="product" /></figure>
               <div className="card-body">
                 <p className="card-title">{value.Name}</p>
                 <p className="card-title">${((value.price).slice(1,-2))*value.count}/-</p>
@@ -59,7 +59,7 @@ let count = userdata && userdata.reduce((a,e) =>{ return (e.count)*1+ a},0)
             </div>)
         })}
       
-      <div className="card card-centre bg-pink-200 shadow-xl">
+      <div className="card card-centre max-width-64 bg-pink-200 shadow-xl max-h-64">
   
   <div className="card-body">
     <h2 className="card-title">price details</h2>

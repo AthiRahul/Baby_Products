@@ -12,6 +12,8 @@ function ProductDelete() {
     const CategoryRef = useRef();
     const discriptnRef = useRef();
 
+     const [check, setCheck] = useState()
+
     const [data, setData] = useState();
     const [ProductData, setProductdata] = useState({});
     const navigate = useNavigate()
@@ -26,7 +28,7 @@ function ProductDelete() {
     const HandleDelete = (productId) => {
 
         axios.delete(`http://localhost:3000/products/${productId}`)
-            .then((res) => alert("item deleted"))
+            .then((res) =>( alert("item deleted"),  window.location = "AdminHome/*"))
 
     }
     const HandleEdit = (productId) => {
@@ -35,98 +37,100 @@ function ProductDelete() {
         console.log(ProductData);
     }
 
-   
 
-    const buttonClick = () => {
-        (e) => e.preventDefault()
+
+    const buttonClick = (e) => {
+        e.preventDefault()
         const image = imageRef.current.value
         const Name = nameRef.current.value
         const price = priceRef.current.value
         const Qty = countRef.current.value
         const Category = CategoryRef.current.value
         const discriptn = discriptnRef.current.value
-       console.log(ProductData);
-        
-        axios.patch(`http://localhost:3000/products/${ProductData.id}`,{...ProductData,image,Name,price,Qty,discriptn,Category})
-        .then((res)=>)
+        axios.patch(`http://localhost:3000/products/${ProductData.id}`, { ...ProductData, image, Name, price, Qty, discriptn, Category })
+        window.location.reload()
+            .then((res) => {alert("item updated successfully", window.location = "AdminHome/*")})
+           
     }
-return (
-    <div className='flex'>
-        <div>
-            {data && data.map((item, i) => {
 
-                return (
-                    <div key={i} className="card card-side max-w-lg gap-4 bg-base-100 shadow-xl">
-                        <figure><img img className='max-h-60 mx-auto' src={item.image} alt="product" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">{item.Name}</h2>
-                            <p>{item.price}</p>
-                            <div className="card-actions justify-end">
-                                <button onClick={() => HandleEdit(item.id)} className="btn btn-primary">Edit</button>
-                                <button onClick={() => HandleDelete(item.id)} className="btn btn-primary">Delete</button>
+    
+    return (
+        <div className='flex'>
+            <div>
+                {data && data.map((item, i) => {
+
+                    return (
+                        <div key={i} className="card card-side max-w-lg gap-4 bg-base-100 shadow-xl">
+                            <figure><img img className='max-h-60 mx-auto' src={item.image} alt="product" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title">{item.Name}</h2>
+                                <p>{item.price}</p>
+                                <div className="card-actions justify-end">
+                                    <button onClick={() => HandleEdit(item.id)} className="btn btn-primary">Edit</button>
+                                    <button onClick={() => HandleDelete(item.id)} className="btn btn-primary">Delete</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                )
-            })}
+                    )
+                })}
+            </div>
+            {
+                ProductData &&
+                    (ProductData) ?
+                    <div className=' flex flex-col items-start w-8/12 ' >
+
+                        <div className='border pl-24 flex flex-col items-center  w-8/12'>
+                            <h1 >Edit</h1>
+                            <form className="form-control w-full max-w-xs" onSubmit={buttonClick}>
+
+                                <label className="label-text"> Product Name</label>
+                                <input type="text" placeholder="First and last name"
+                                    className="input input-bordered w-full max-w-xs" defaultValue={ProductData.Name}
+
+                                    ref={nameRef}
+                                />
+                                <label className="label-text"> Product Price</label>
+                                <input type="text"
+                                    className="input input-bordered w-full max-w-xs" defaultValue={ProductData.price}
+                                    ref={priceRef}
+                                />
+                                <label className="label-text"> Product Category</label>
+                                <input type="text" placeholder="At least 6 character"
+                                    className="input input-bordered w-full max-w-xs" defaultValue={ProductData.Category}
+                                    ref={CategoryRef}
+                                />
+                                <label className="label-text"> Image</label>
+                                <input type="text"
+                                    className="input input-bordered w-full max-w-xs"
+                                    defaultValue={ProductData.image}
+                                    ref={imageRef}
+
+
+                                />
+                                <label className="label-text"> Qty</label>
+                                <input type="text"
+                                    className="input input-bordered w-full max-w-xs" defaultValue={ProductData.Qty}
+                                    ref={countRef}
+
+                                />
+                                <label className="label-text"> discriptn</label>
+                                <input type="text"
+                                    className="input input-bordered w-full max-w-xs" defaultValue={ProductData.discriptn}
+                                    ref={discriptnRef}
+
+                                /><br></br><br></br>
+
+                                <button className="input-bordered w-full max-w-xs btn btn-warning"
+                                    type='submit'>Update Product</button>
+
+                            </form>
+                        </div>
+
+                    </div>
+                    : null}
         </div>
-        {
-            ProductData &&
-                (ProductData) ?
-                <div className=' flex flex-col items-start ' >
-
-                    <div className='border p-4 flex flex-col items-center  w-96'>
-                        <h1 >Edit</h1>
-                        <form className="form-control w-full max-w-xs" onSubmit={buttonClick}>
-
-                            <label className="label-text"> Product Name</label>
-                            <input type="text" placeholder="First and last name"
-                                className="input input-bordered w-full max-w-xs" defaultValue={ProductData.Name}
-
-                                ref={nameRef}
-                            />
-                            <label className="label-text"> Product Price</label>
-                            <input type="text"
-                                className="input input-bordered w-full max-w-xs" defaultValue={ProductData.price}
-                                ref={priceRef}
-                            />
-                            <label className="label-text"> Product Category</label>
-                            <input type="text" placeholder="At least 6 character"
-                                className="input input-bordered w-full max-w-xs" defaultValue={ProductData.Category}
-                                ref={CategoryRef}
-                            />
-                            <label className="label-text"> Image</label>
-                            <input type="text"
-                                className="input input-bordered w-full max-w-xs"
-                                defaultValue={ProductData.image}
-                                ref={imageRef}
-                               
-
-                            />
-                            <label className="label-text"> Qty</label>
-                            <input type="text"
-                                className="input input-bordered w-full max-w-xs" defaultValue={ProductData.Qty}
-                                ref={countRef}
-
-                            />
-                            <label className="label-text"> discriptn</label>
-                            <input type="text"
-                                className="input input-bordered w-full max-w-xs" defaultValue={ProductData.discriptn}
-                                ref={discriptnRef}
-
-                            /><br></br><br></br>
-
-                            <button className="input-bordered w-full max-w-xs btn btn-warning"
-                                type='submit'>Update Product</button>
-
-                        </form>
-                    </div>
-
-                </div>
-                : null}
-    </div>
-)
+    )
 }
 
 export default ProductDelete
